@@ -1,0 +1,65 @@
+.mod-impact,
+.impact-edit {
+    .panel-body {
+        min-height: 340px;
+        .panel-top {
+            .section-heading {
+                display: inline-block;
+            }
+            .edit-btn {
+                float: right;
+                display: inline-block;
+            }
+        }
+        .row {
+            margin: 15px;
+            .impact-label, .impact-desc {
+                font-size: 15px;
+            }
+            .impact-change {
+                font-size: 18px;
+                text-align: right;
+                &.impact-pos {
+                    color: $color-darkgreen;
+                }
+                &.impact-neg {
+                    color: $color-red;
+                }
+            }
+        }
+    }
+}
+
+.impact-edit {
+    position: absolute;
+    top: 0;
+    width: 95.5%;
+    visibility: hidden;
+    min-height: 342px;
+    background-color: $color-darkgray;
+    color: $color-white;
+    opacity: 0;
+    &.edit-active {
+        visibility: visible;
+        transition: opacity 0.3s linear;
+        opacity: 1;
+    }
+    .edit-dropdown {
+        .btn {
+            border-radius: 0px;
+        }
+        .dropdown-menu {
+            border-radius: 0px;
+        }
+    }
+    .form-control {
+        border-radius: 0px;
+    }
+    .input-group-addon {
+        background-color: $color-white;
+        border-radius: 0px;
+    }
+    .edit-mode-btns {
+        float: right;
+    }
+}
