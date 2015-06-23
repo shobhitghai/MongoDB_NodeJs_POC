@@ -8,7 +8,7 @@
             var chartContainer = $(s.target).find('#shopper-profile-chart');
 
             $.ajax({
-                url: 'http://localhost:3000/api/getMostPopulatedCities',
+                url: 'http://localhost:3001/api/getMostPopulatedCities',
                 success: function(data) {
                     app['shopper-profile'].renderChart(chartContainer, $.parseJSON(data));
                 },

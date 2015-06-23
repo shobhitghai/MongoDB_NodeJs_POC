@@ -175,7 +175,7 @@ $(function() {
         },
         fetchData: function(url, template, parentContainer, data) {
             $.ajax({
-                url: 'http://localhost:3000/api/' + url,
+                url: 'http://localhost:3001/api/' + url,
                 data: data || {},
                 success: function(data) {
                     if (template) {
@@ -290,7 +290,7 @@ $(function() {
             var chartContainer = $(s.target).find('#shopper-profile-chart');
 
             $.ajax({
-                url: 'http://localhost:3000/api/getMostPopulatedCities',
+                url: 'http://localhost:3001/api/getMostPopulatedCities',
                 success: function(data) {
                     app['shopper-profile'].renderChart(chartContainer, $.parseJSON(data));
                 },
@@ -597,7 +597,7 @@ $(function() {
             var chartContainer = $(s.target).find('#shopper-area-chart');
 
             $.ajax({
-                url: 'http://localhost:3000/api/getCountiesByArea',
+                url: 'http://localhost:3001/api/getCountiesByArea',
                 success: function(data) {
                     app['right-now'].renderChart(chartContainer, $.parseJSON(data));
                 },

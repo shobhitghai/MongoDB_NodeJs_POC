@@ -8,7 +8,7 @@
             var chartContainer = $(s.target).find('#shopper-area-chart');
 
             $.ajax({
-                url: 'http://localhost:3000/api/getCountiesByArea',
+                url: 'http://localhost:3001/api/getCountiesByArea',
                 success: function(data) {
                     app['right-now'].renderChart(chartContainer, $.parseJSON(data));
                 },

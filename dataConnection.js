@@ -4,7 +4,7 @@ var application_root = __dirname,
     assert = require('assert'),
     bodyParser = require("body-parser"),
     dataController = require("./js/controllers/dataController.js");
-    port = process.env.PORT || 3000;
+    port = process.env.PORT || 3001;
 
 var app = express();
 

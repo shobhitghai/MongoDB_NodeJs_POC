@@ -19,7 +19,7 @@
         },
         fetchData: function(url, template, parentContainer, data) {
             $.ajax({
-                url: 'http://localhost:3000/api/' + url,
+                url: 'http://localhost:3001/api/' + url,
                 data: data || {},
                 success: function(data) {
                     if (template) {
