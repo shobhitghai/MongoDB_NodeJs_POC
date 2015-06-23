@@ -348,84 +348,88 @@ table.dataTable thead .sorting:after {
 .mod-tile-section .tab-selection-row .grp-label {
   color: #55c6f2;
 }
-/* line 15, ../sass/modules/_tile-section.scss */
+/* line 13, ../sass/modules/_tile-section.scss */
+.mod-tile-section .tab-selection-row .tile-dropdown {
+  display: inline-block;
+}
+/* line 18, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel {
   height: 142px;
   margin-bottom: 0px;
   border: none;
 }
-/* line 19, ../sass/modules/_tile-section.scss */
+/* line 22, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel .panel-heading {
   border: none;
   background-color: transparent;
   height: 100%;
   padding: 0 15px;
 }
-/* line 24, ../sass/modules/_tile-section.scss */
+/* line 27, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel .panel-heading .row {
   height: 100%;
 }
-/* line 26, ../sass/modules/_tile-section.scss */
+/* line 29, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel .panel-heading .row .tile-left-section {
   text-align: center;
   display: block;
   height: 100%;
 }
-/* line 30, ../sass/modules/_tile-section.scss */
+/* line 33, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel .panel-heading .row .tile-left-section .tile-type {
   margin-top: 20px;
   margin-bottom: 20px;
   display: block;
 }
-/* line 36, ../sass/modules/_tile-section.scss */
+/* line 39, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel .panel-heading .row .tile-right-section {
   height: 100%;
 }
-/* line 38, ../sass/modules/_tile-section.scss */
+/* line 41, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel .panel-heading .row .tile-right-section .tile-data-count {
   font-size: 32px;
   text-align: center;
   margin-top: 35px;
   color: #55c6f2;
 }
-/* line 44, ../sass/modules/_tile-section.scss */
+/* line 47, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .panel .panel-heading .row .tile-right-section .tab-type-text {
   color: #a77f93;
   margin-top: 17px;
 }
-/* line 53, ../sass/modules/_tile-section.scss */
+/* line 56, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-opportunity .tile-left-section {
   background-color: #6ecac9;
 }
-/* line 56, ../sass/modules/_tile-section.scss */
+/* line 59, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-opportunity .tile-right-section {
   background-color: #f2f2f2;
 }
-/* line 61, ../sass/modules/_tile-section.scss */
+/* line 64, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-storeFront .tile-left-section {
   background-color: #ff6d60;
 }
-/* line 64, ../sass/modules/_tile-section.scss */
+/* line 67, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-storeFront .tile-right-section {
   background-color: #f2f2f2;
 }
-/* line 69, ../sass/modules/_tile-section.scss */
+/* line 72, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-dwellTime .tile-left-section {
   background-color: #FFCC33;
 }
-/* line 72, ../sass/modules/_tile-section.scss */
+/* line 75, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-dwellTime .tile-right-section {
   background-color: #f2f2f2;
 }
-/* line 77, ../sass/modules/_tile-section.scss */
+/* line 80, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-customers .tile-left-section {
   background-color: #a9d18e;
 }
-/* line 79, ../sass/modules/_tile-section.scss */
+/* line 82, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-customers .tile-left-section .tile-type {
   position: relative;
 }
-/* line 82, ../sass/modules/_tile-section.scss */
+/* line 85, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-customers .tile-left-section .customer-count {
   position: absolute;
   top: 21%;
@@ -437,7 +441,7 @@ table.dataTable thead .sorting:after {
   height: 40px;
   width: 40px;
 }
-/* line 94, ../sass/modules/_tile-section.scss */
+/* line 97, ../sass/modules/_tile-section.scss */
 .mod-tile-section .tile-section-row .section-customers .tile-right-section {
   background-color: #f2f2f2;
 }

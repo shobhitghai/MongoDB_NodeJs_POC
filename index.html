@@ -56,26 +56,30 @@
             <div class="mod-tile-section panel">
                 <div class="row tab-selection-row">
                     <div class="col-xs-12">
-                        <div class="btn-group grp-comparison" data-toggle="buttons">
-                            <div class="grp-label">Comparisons</div>
-                            <label class="btn btn-metric btn-primary active">
-                                <input type="radio" name="options" id="option1" autocomplete="off" checked>Consecutive
-                            </label>
-                            <label class="btn btn-primary btn-metric">
-                                <input type="radio" name="options" id="option2" autocomplete="off">Like for Like
-                            </label>
+                        <div class="dropdown tile-dropdown">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="continentDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Continent
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="continentDropdown">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                          </ul>
                         </div>
-                        <div class="btn-group grp-timeline" data-toggle="buttons">
-                            <div class="grp-label">Period</div>
-                            <label class="btn btn-primary active btn-metric">
-                                <input type="radio" name="options" id="option1" autocomplete="off" checked> Day
-                            </label>
-                            <label class="btn btn-primary btn-metric">
-                                <input type="radio" name="options" id="option2" autocomplete="off"> Week
-                            </label>
-                            <label class="btn btn-primary btn-metric">
-                                <input type="radio" name="options" id="option3" autocomplete="off"> Month
-                            </label>
+
+                        <div class="dropdown tile-dropdown">
+                          <button class="btn btn-default dropdown-toggle" type="button" id="countryDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Country
+                            <span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu" aria-labelledby="countryDropdown">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li><a href="#">Separated link</a></li>
+                          </ul>
                         </div>
                     </div>
                 </div>
